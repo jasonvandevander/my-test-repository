@@ -122,14 +122,26 @@ ul li:last-child {
     margin: 0.5rem 1rem;
 }
 
-.close {
-    position: absolute;
+.remove {
+    position: static;
     right: 0;
     top: 0;
-    padding: 12px 16px 12px 16px;
+   padding: 1px 1px 1px 1px;
   }
   
-  .close:hover {
-    background-color: #f44336;
+  .remove:hover {
+    background-color: rgb(21, 59, 98);
+    color: white;
+  }
+
+  .edit {
+    position:static;
+    right: 0;
+    top: 0;
+   padding: 1px 1px 1px 1px;
+  }
+  
+  .edit:hover {
+    background-color: rgb(21, 59, 98);
     color: white;
   }

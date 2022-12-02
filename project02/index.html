@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/7d89c49ac9.js" crossorigin="anonymous"></script>
+    <script type= "text/javascript" src="app.js"></script>
+    <title>List App</title>
+</head>
+<body>
+    <div class="container_main">
+        <nav id="nav-bar">
+            <a href="#Home">Home</a>
+            <a href="#My_Lists">My Lists</a>
+        </nav>
+        <div class="wrapper">
+            <div class="container_list">
+                <div class="list_top">
+                    <h2 class="list_title">To Do!</h2>
+                    <input type="text" id="input_text" placeholder="List Item">
+                    <button onclick="newItem()" class="add_btn">Add</button>
+                </div>
+                <div class="list_mid">
+                    <ul id="list"></ul>
+                </div>
+            </div>
+            <div class="container_done">
+                <div class="done_top">
+                    <h2 class="done_title">Done!</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

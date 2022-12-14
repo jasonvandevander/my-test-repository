@@ -8,6 +8,7 @@ import { FormsModule } from '@angular/forms';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { NavComponent } from './nav/nav.component';
+import { CompletedListComponent } from './completed-list/completed-list.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { NavComponent } from './nav/nav.component';
     TodoListComponent,
     HeaderComponent,
     FooterComponent,
-    NavComponent
+    NavComponent,
+    CompletedListComponent
   ],
   imports: [
     BrowserModule,

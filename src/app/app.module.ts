@@ -14,6 +14,12 @@ import { TodoService } from './services/todo.service';
 import { TodoNavComponent } from './todo-nav/todo-nav.component';
 import { TodoListComponent } from './todo-list/todo-list.component';
 import { CompletedListComponent } from './completed-list/completed-list.component';
+import { CompletedFooterComponent } from './completed-footer/completed-footer.component';
+import { CompletedHeaderComponent } from './completed-header/completed-header.component';
+import { CompletedInputComponent } from './completed-input/completed-input.component';
+import { CompletedItemComponent } from './completed-item/completed-item.component';
+import { CompletedIncompleteComponent } from './completed-incomplete/completed-incomplete.component';
+import { CompletedNavComponent } from './completed-nav/completed-nav.component';
 
 
 @NgModule({
@@ -26,7 +32,13 @@ import { CompletedListComponent } from './completed-list/completed-list.componen
     TodoFooterComponent,
     TodoNavComponent,
     TodoListComponent,
-    CompletedListComponent
+    CompletedListComponent,
+    CompletedFooterComponent,
+    CompletedHeaderComponent,
+    CompletedInputComponent,
+    CompletedItemComponent,
+    CompletedIncompleteComponent,
+    CompletedNavComponent
   ],
   imports: [
     BrowserModule,

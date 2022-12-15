@@ -1,30 +1,37 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { FormsModule } from '@angular/forms';
+
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { TodoInputComponent } from './todo-input/todo-input.component';
+import { TodoItemComponent } from './todo-item/todo-item.component';
+import { TodoCompleteComponent } from './todo-complete/todo-complete.component';
+import { TodoHeaderComponent } from './todo-header/todo-header.component';
+import { TodoFooterComponent } from './todo-footer/todo-footer.component';
+import { TodoService } from './services/todo.service';
+import { TodoNavComponent } from './todo-nav/todo-nav.component';
 import { TodoListComponent } from './todo-list/todo-list.component';
-import { FormsModule } from '@angular/forms';
-import { HeaderComponent } from './header/header.component';
-import { FooterComponent } from './footer/footer.component';
-import { NavComponent } from './nav/nav.component';
-import { CompletedListComponent } from './completed-list/completed-list.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
-    TodoListComponent,
-    HeaderComponent,
-    FooterComponent,
-    NavComponent,
-    CompletedListComponent
+    TodoInputComponent,
+    TodoItemComponent,
+    TodoCompleteComponent,
+    TodoHeaderComponent,
+    TodoFooterComponent,
+    TodoNavComponent,
+    TodoListComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule,
-    FormsModule
+    FormsModule,
+    AppRoutingModule
   ],
-  providers: [],
+  providers: [TodoService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

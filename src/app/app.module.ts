@@ -13,6 +13,7 @@ import { TodoFooterComponent } from './todo-footer/todo-footer.component';
 import { TodoService } from './services/todo.service';
 import { TodoNavComponent } from './todo-nav/todo-nav.component';
 import { TodoListComponent } from './todo-list/todo-list.component';
+import { CompletedListComponent } from './completed-list/completed-list.component';
 
 
 @NgModule({
@@ -24,7 +25,8 @@ import { TodoListComponent } from './todo-list/todo-list.component';
     TodoHeaderComponent,
     TodoFooterComponent,
     TodoNavComponent,
-    TodoListComponent
+    TodoListComponent,
+    CompletedListComponent
   ],
   imports: [
     BrowserModule,

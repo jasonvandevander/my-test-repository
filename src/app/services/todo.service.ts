@@ -17,6 +17,7 @@ export class TodoService {
     this._nextId = this._todos.length;
   }
 
+
   addTodo(text: string) {
     console.log(this._todos);
     let todo = new Todo(text, this._nextId);
@@ -35,4 +36,7 @@ export class TodoService {
       }
     }
   }
+
 }
+
+

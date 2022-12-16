@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { CompletedService } from '../services/completed.service';
 
 @Component({
   selector: 'app-completed-list',
@@ -7,6 +8,10 @@ import { Component } from '@angular/core';
 })
 export class CompletedListComponent {
 
-
+  _completedService: CompletedService;
+  
+  constructor(_completedService: CompletedService) {
+    this._completedService = _completedService;
+  }
   
 }

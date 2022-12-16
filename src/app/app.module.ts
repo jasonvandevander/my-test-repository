@@ -20,6 +20,7 @@ import { CompletedInputComponent } from './completed-input/completed-input.compo
 import { CompletedItemComponent } from './completed-item/completed-item.component';
 import { CompletedIncompleteComponent } from './completed-incomplete/completed-incomplete.component';
 import { CompletedNavComponent } from './completed-nav/completed-nav.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 
 @NgModule({
@@ -43,7 +44,8 @@ import { CompletedNavComponent } from './completed-nav/completed-nav.component';
   imports: [
     BrowserModule,
     FormsModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule
   ],
   providers: [TodoService],
   bootstrap: [AppComponent]

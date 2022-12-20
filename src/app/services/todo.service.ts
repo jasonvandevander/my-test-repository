@@ -2,11 +2,9 @@ import { Injectable } from '@angular/core';
 import { Todo } from '../classes/todo';
 import { Completed } from '../classes/completed';
 
-
 @Injectable({
   providedIn: 'root'
 })
-
 
 export class CompletedService {
   public _completeds: Completed[];
@@ -22,7 +20,6 @@ export class CompletedService {
     ];
     this._nextId = this._completeds.length;
 
-    
       this._todos = [
         new Todo("Doctor Appointment", 0),
         new Todo("Going to the Gym ", 1),
@@ -30,7 +27,6 @@ export class CompletedService {
       ];
       this._nextIdZ = this._todos.length;
     }
-  
 
   public addCompleted(text: string) {
     console.log(this._completeds);
@@ -50,8 +46,6 @@ export class CompletedService {
       }
     }
   }
-
-
 
   addTodo(text: string) {
     console.log(this._todos);
@@ -83,6 +77,5 @@ export class CompletedService {
     this.removeCompleted(id);
     this.addTodo(todo.text)
   }
-
 
 }

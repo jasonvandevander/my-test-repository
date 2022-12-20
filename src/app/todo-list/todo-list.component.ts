@@ -7,9 +7,7 @@ import { CompletedService } from '../services/todo.service';
   styleUrls: ['./todo-list.component.css']
 })
 export class TodoListComponent {
-
   _todoService: CompletedService;
-  
   constructor(_todoService: CompletedService) {
     this._todoService = _todoService;
   }

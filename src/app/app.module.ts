@@ -1,8 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule } from '@angular/forms';
-
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { TodoInputComponent } from './todo-input/todo-input.component';
@@ -14,14 +12,9 @@ import { CompletedService } from './services/todo.service';
 import { TodoNavComponent } from './todo-nav/todo-nav.component';
 import { TodoListComponent } from './todo-list/todo-list.component';
 import { CompletedListComponent } from './completed-list/completed-list.component';
-import { CompletedFooterComponent } from './completed-footer/completed-footer.component';
-import { CompletedHeaderComponent } from './completed-header/completed-header.component';
 import { CompletedInputComponent } from './completed-input/completed-input.component';
 import { CompletedItemComponent } from './completed-item/completed-item.component';
-import { CompletedIncompleteComponent } from './completed-incomplete/completed-incomplete.component';
-import { CompletedNavComponent } from './completed-nav/completed-nav.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-
 
 @NgModule({
   declarations: [
@@ -34,12 +27,9 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     TodoNavComponent,
     TodoListComponent,
     CompletedListComponent,
-    CompletedFooterComponent,
-    CompletedHeaderComponent,
     CompletedInputComponent,
     CompletedItemComponent,
-    CompletedIncompleteComponent,
-    CompletedNavComponent
+
   ],
   imports: [
     BrowserModule,
@@ -47,7 +37,9 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     AppRoutingModule,
     BrowserAnimationsModule
   ],
+
   providers: [CompletedService],
   bootstrap: [AppComponent]
 })
+
 export class AppModule { }

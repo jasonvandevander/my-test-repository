@@ -17,9 +17,8 @@ export class TodoInputComponent implements OnInit {
 
   onAddClick(): void {
     this.todoService.addTodo(this.todoText);
-    
     this.todoText = ''; 
   }
-} {
+} 
 
-}
+

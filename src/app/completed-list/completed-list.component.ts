@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { CompletedService } from '../services/completed.service';
+import { CompletedService } from '../services/todo.service';
 
 @Component({
   selector: 'app-completed-list',

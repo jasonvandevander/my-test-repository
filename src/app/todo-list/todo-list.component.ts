@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { TodoService } from '../services/todo.service';
+import { CompletedService } from '../services/todo.service';
 
 @Component({
   selector: 'app-todo-list',
@@ -8,9 +8,9 @@ import { TodoService } from '../services/todo.service';
 })
 export class TodoListComponent {
 
-  _todoService: TodoService;
+  _todoService: CompletedService;
   
-  constructor(_todoService: TodoService) {
+  constructor(_todoService: CompletedService) {
     this._todoService = _todoService;
   }
 }

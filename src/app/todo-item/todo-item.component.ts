@@ -1,6 +1,6 @@
 import { Component, Input, OnInit } from '@angular/core';
 import { Todo } from '../classes/todo';
-import { TodoService } from '../services/todo.service';
+import { CompletedService } from '../services/todo.service';
 
 @Component({
   selector: 'app-todo-item',
@@ -13,7 +13,7 @@ export class TodoItemComponent implements OnInit {
   editing: boolean = false;
   public newTodoText!: string;
   
-  constructor(private _todoService: TodoService ) { }
+  constructor(private _todoService: CompletedService ) { }
 
   ngOnInit() {}
 
@@ -33,6 +33,14 @@ export class TodoItemComponent implements OnInit {
   cancelEdit() {
     this.editing = false;
   }
+
+  completeToDo() {
+    this._todoService.removeTodo(this.todo.id);
+    this._todoService.addCompleted(this.todo.text);
+  }
+
 }
+
+  
 
   

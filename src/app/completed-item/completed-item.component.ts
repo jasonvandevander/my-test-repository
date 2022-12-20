@@ -1,6 +1,6 @@
 import { Component, Input, OnInit } from '@angular/core';
 import { Completed } from '../classes/completed';
-import { CompletedService } from '../services/completed.service';
+import { CompletedService } from '../services/todo.service';
 
 @Component({
   selector: 'app-completed-item',
@@ -33,4 +33,10 @@ export class CompletedItemComponent implements OnInit {
   cancelEdit() {
     this.editing = false;
   }
+
+  incompleteToDo() {
+    this._CompletedService.removeCompleted(this.completed.id);
+    this._CompletedService.addTodo(this.completed.text);
+  }
+
 }

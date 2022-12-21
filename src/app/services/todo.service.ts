@@ -15,15 +15,11 @@ export class CompletedService {
   constructor() { 
     this._completeds = [
       new Completed("test1",0),
-      new Completed("test2", 1),
-      new Completed("test3", 2)
     ];
     this._nextId = this._completeds.length;
 
       this._todos = [
         new Todo("Doctor Appointment", 0),
-        new Todo("Going to the Gym ", 1),
-        new Todo(" Pick my kids from school", 2)
       ];
       this._nextIdZ = this._todos.length;
     }

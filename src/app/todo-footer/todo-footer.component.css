@@ -1,13 +1,8 @@
-#footer {
+ #footer {
   padding: 28px;
+  bottom: 0px;
+  position: static;
   background-color: rgba(139, 125, 125, 0.61); 
-}
-
-.content {
-  text-align: center; 
-  border-bottom: 1px solid rgb(19, 18, 18);
-  padding: 0 0 30px;
-  margin: 0 0 30px;
 }
 
 .social {
@@ -22,16 +17,16 @@
 }
 
 .social a {
-  color: rgb(245, 14, 14);
+  color: rgb(14, 45, 245);
 }
 
 .social a:hover {
-  color: rgba(199, 199, 207, 0.274);
+  color: rgb(248, 246, 246);
 }
 
 .copyright {
   text-align: center;
-  color: rgba(243, 30, 30, 0.836);
+  color: rgba(14, 45, 245);
 }
 
 .copyright a {

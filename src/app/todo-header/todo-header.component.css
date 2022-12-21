@@ -1,21 +1,18 @@
 header {
   display: flex;
   flex-direction: column;
-  font-family: 'Brush Script MT', cursive;
-  background-color: lightgray;
+  font-family: 'Brush Script MT', ;
+  background-color: rgb(156, 151, 151);
   justify-content: center;
-  align-items: center;
+  text-align: center;
   font-weight: bold;
 }
 
-div {
-  height: 80px;  
-}
-
 #main-text {
-  padding: 12px 24px 12px 24px;
-  height: 68px;
-  font-size: 24px;
-  color: red;
-  margin-top: 24px;
+  
+  padding: 0px 0px 0px 0px;
+  height: 150px;
+  font-size: 100px;
+  color: rgb(0, 0, 0);
+  margin-top: 0px;
 }

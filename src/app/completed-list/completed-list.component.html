@@ -1,4 +1,4 @@
 <app-completed-input></app-completed-input>  
-<h1>Completed List</h1>
+<h1>Completed Item</h1>
 <div *ngFor="let completed of _completedService.getCompleted();">
 <app-completed-item [completed]="completed"></app-completed-item>

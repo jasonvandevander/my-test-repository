@@ -6,7 +6,7 @@
         <button type="button" (click)="saveCompleted()" 
           class="btn btn-primary">Save</button>
         <button type="button" (click)="cancelEdit()" 
-          class="btn btn-primary">Cancel</button>
+          class="btn btn-danger left-buffer">Cancel</button>
       </span>
     </div>
   </div>
@@ -15,11 +15,11 @@
       <p class="form-control">{{ completed.text }}</p>
       <span class="input-group-btn">
         <button type="button" (click)="editCompleted()" 
-          class="btn btn-primary">Edit</button>    
+          class="btn btn-default left-buffer">Edit</button>    
         <button type="button" (click)="removeCompleted()" 
-          class="btn btn-primary">Remove</button>
+          class="btn btn-danger left-buffer">Remove</button>
           <button type="button" (click)="incompleteToDo()" 
-          class="btn btn-primary">Incomplete</button>
+          class="btn btn-danger left-buffer">Incomplete</button>
       </span>  
     </div>    
   </div>    

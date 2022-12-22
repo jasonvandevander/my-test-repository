@@ -1,3 +1,8 @@
 hr {
     border-left: 10px;
+    color: white;
 }
+#app-todo-list{
+    background-color: black;
+}
+

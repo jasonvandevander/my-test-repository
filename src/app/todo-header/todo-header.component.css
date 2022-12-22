@@ -1,0 +1,18 @@
+header {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Brush Script MT', ;
+  background-color: rgb(156, 151, 151);
+  justify-content: center;
+  text-align: center;
+  font-weight: bold;
+}
+
+#main-text {
+  
+  padding: 0px 0px 0px 0px;
+  height: 150px;
+  font-size: 100px;
+  color: rgb(0, 0, 0);
+  margin-top: 0px;
+}

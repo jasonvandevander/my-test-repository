@@ -1,0 +1,26 @@
+<div class="completed-item">
+  <div *ngIf="editing">
+    <div class="input-group">
+      <input type="text" class="form-control" [(ngModel)]="newCompletedText">  
+      <span class="input-group-btn">
+        <button type="button" (click)="saveCompleted()" 
+          class="btn btn-primary">Save</button>
+        <button type="button" (click)="cancelEdit()" 
+          class="btn btn-danger left-buffer">Cancel</button>
+      </span>
+    </div>
+  </div>
+  <div *ngIf="!editing">
+    <div class="input-group">
+      <p class="form-control">{{ completed.text }}</p>
+      <span class="input-group-btn">
+        <button type="button" (click)="editCompleted()" 
+          class="btn btn-default left-buffer">Edit</button>    
+        <button type="button" (click)="removeCompleted()" 
+          class="btn btn-danger left-buffer">Remove</button>
+          <button type="button" (click)="incompleteToDo()" 
+          class="btn btn-danger left-buffer">Incomplete</button>
+      </span>  
+    </div>    
+  </div>    
+</div>

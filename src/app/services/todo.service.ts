@@ -14,7 +14,7 @@ export class CompletedService {
 
   constructor() { 
     this._completeds = [
-      new Completed("test1",0),
+      new Completed("Nails",0),
     ];
     this._nextId = this._completeds.length;
 

@@ -13,7 +13,11 @@ header {
   height: 150px;
   font-size: 80px;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+<<<<<<< HEAD
   color: rgb(2, 117, 216);
+=======
+  color: rgb(40, 40, 245);
+>>>>>>> 86d222ad40e36aadc1928f94bb4bb0bf9dbe6f06
   margin-top: 0px;
 }
 
@@ -21,7 +25,11 @@ header {
   height: 50px;
   font-size: 40px;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+<<<<<<< HEAD
   color: rgb(2, 117, 216);
+=======
+  color: rgb(245, 95, 40);
+>>>>>>> 86d222ad40e36aadc1928f94bb4bb0bf9dbe6f06
   margin-top: 0px;
 
 }

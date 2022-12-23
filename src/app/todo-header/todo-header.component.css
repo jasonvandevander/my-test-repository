@@ -11,17 +11,8 @@ header {
   
   padding: 0px 0px 0px 0px;
   height: 150px;
-  font-size: 80px;
+  font-size: 100px;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  color: rgb(2, 117, 216);
+  color: rgb(0, 136, 255);
   margin-top: 0px;
-}
-
-#sub-head {
-  height: 50px;
-  font-size: 40px;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  color: rgb(2, 117, 216);
-  margin-top: 0px;
-
 }
